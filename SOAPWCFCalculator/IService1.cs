@@ -30,6 +30,10 @@ namespace SOAPWCFCalculator
 
         [OperationContract]
         double Division(double a, double b);
+
+        [OperationContract]
+        double Product(double a, double b);
+
     }
 
 

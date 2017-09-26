@@ -49,5 +49,10 @@ namespace SOAPWCFCalculator
             }
             return composite;
         }
+
+        public double Product(double a, double b)
+        {
+            return a + b;
+        }
     }
 }
